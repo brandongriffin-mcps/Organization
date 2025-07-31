@@ -1,0 +1,35 @@
+{
+  "name": "orgchart",
+  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "Brandon Griffin",
+    "email": "GRIFFB01@mcpsmd.org"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.17.0"
+  },
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.1",
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/d3": "^7.4.3",
+    "@types/d3-flextree": "^2.1.4",
+    "svelte": "^5.36.12",
+    "svelte-check": "^4.3.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "3.50.3-build1",
+    "d3": "^7.9.0",
+    "d3-flextree": "^2.1.2",
+    "exceljs": "^4.4.0"
+  }
+}

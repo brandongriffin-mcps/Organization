@@ -1,0 +1,45 @@
+/** This file contains global styles that don't necessarily apply to one specific component */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Geist", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 100%;
+  min-height: 100vh;
+}
+
+.closest {
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+.modal-btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.modal-btn:hover {
+  background-color: #222;
+}
+
+button {
+  font-family: inherit;
+  user-select: none;
+}
